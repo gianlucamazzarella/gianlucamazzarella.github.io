@@ -10,8 +10,5 @@ children:
     - title: divider
     - title: In progress
       permalink: /projects/
-    - title: divider
-    - title: Other Publications
-      permalink: /others/
 
 ---
