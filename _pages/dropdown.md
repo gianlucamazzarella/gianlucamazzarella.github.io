@@ -7,5 +7,12 @@ dropdown: true
 children:
     - title: Papers
       permalink: /publications/
+    - title: divider
+    - title: Other Publications
+      permalink: /others/
+    - title: divider
+    - title: In progress
+      permalink: /projects/
+
 
 ---
