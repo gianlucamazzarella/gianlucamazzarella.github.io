@@ -134,7 +134,7 @@
     </div>
 
     <!-- Journal/Book title and date -->
-    {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+    {% assign proceedings = 'inproceedings,incollection,inbook' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
@@ -180,6 +180,15 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
+      <!-- ADD GM -->
+      {%- if entry.gitrepo %}
+        <a class="gitrepo btn btn-sm z-depth-0" role="button">Git Rep</a>
+      {%- endif %}
+      {% if entry.otherinfo %}
+        <a class="otherinfo btn btn-sm z-depth-0" role="button">Add. Info</a>
+      {% endif %}
+      <!-- END ADD GM -->
+
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -307,7 +316,27 @@
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
+<!-- ADD GM -->
+          {% if entry.gitrepo %}
+          <!-- Hidden abstract block -->
+          {% assign repo_url =  entry.gitrepo | split: '/' %}
+          <div class="gitrepo hidden">
+            <a href="https://github.com/{{ entry.gitrepo }}">
+              <img class="gitrepo-img-dark w-20" alt="{{ entry.gitrepo }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}">
+            </a>
+          </div>
+          {% endif %}
 
+    {% if entry.otherinfo %}
+    <!-- Hidden abstract block -->
+    <div class="otherinfo hidden">
+      {% capture my_include %}
+      {% include addinfopaper/{{ entry.otherinfo }} %}{% endcapture %}
+      {{ my_include | markdownify}}
+    </div>
+    {% endif %}
+
+<!-- END ADD-->
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">

@@ -1,34 +1,47 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"bertoni":
+  - firstname: ["Marco","M."]
+    url: https://sites.google.com/site/marcobertoniunipd/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"bratti":
+  - firstname: ["Massimiliano","M."]
+    url: https://sites.google.com/site/massimilianobratti/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"brunello":
+  - firstname: ["Giorgio","G."]
+    url: https://giorgiobrunello.jimdofree.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"colagrossi":
+  - firstname: ["Marco","M."]
+    url: https://mcolagrossi.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"deiana":
+  - firstname: ["Claudio","C."]
+    url: https://www.claudiodeiana.net/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"geraci":
+  - firstname: ["Andrea", "A."]
+    url: https://sites.google.com/view/andreageraci/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"giua":
+  - firstname: ["Ludovica","L."]
+    url: https://sites.google.com/site/ludovicagiua/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"granato":
+  - firstname: ["Silvia","S."]
+    url: https://sites.google.com/view/silviagranato/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"havari":
+  - firstname: ["Enkelejda","E."]
+    url: https://sites.google.com/site/enkehavari/
+
+"meroni":
+  - firstname: ["Elena","Elena Claudia", "E.","E.C."]
+    url: https://sites.google.com/view/elenaclaudiameroni/
+
+"sabatini":
+  - firstname: ["Fabio","F."]
+    url: https://fabiosabatini.site.uniroma1.it/
+
+"verboven":
+    - firstname: ["Frank","F."]
+      url: https://sites.google.com/site/frankverbo/
