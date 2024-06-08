@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: prova_pic.png
+  image: pic.png
   image_circular: false  # crops the image to make it circular
   more_info: >
     <p>Room 4, First floor</p>
