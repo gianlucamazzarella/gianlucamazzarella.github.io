@@ -8,6 +8,10 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+
 <div class="publications">
 
 {% bibliography -f papers -q @*[papercat =1]* %}

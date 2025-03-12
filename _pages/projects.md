@@ -9,13 +9,12 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<h4 class="category">Working papers</h4>
 <div class="publications">
-  <h4>Working papers</h4>
   {% bibliography -f papers --template bibsimple -q @*[papercat =4]* %}
 </div>
-
 <br>
+<h4 class="category">Work in progress</h4>
 <div class="publications">
-  <h4 class="category">Work in progress</h4>
   {% bibliography -f papers --template bibsimple -q @*[papercat =6]* %}
 </div>

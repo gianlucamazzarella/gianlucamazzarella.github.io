@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Gianluca Mazzarella",
+    "label": "Assistant Professor",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "https://gianlucamazzarella.github.io/",
+    "summary": "Senior Assistant Professor (RTD-B) in Economics, University of Pavia",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "University of Pavia",
+      "position": "Senior Assistant Professor (RTD-B)",
+      "startDate": "2024-03-01",
+      "endDate": "current"
+    },
+	{
+      "name": "University of Milan",
+      "position": "Assistant Professor (RTD-A)",
+      "url": "",
+      "startDate": "2022-09-01",
+      "endDate": "2024-02-29",
+      "summary": ""
+    },
+	{
+      "name": "Joint Research Centre -- European Commission",
+      "position": "Research Fellow",
+      "url": "",
+      "startDate": "2016-10-01",
+      "endDate": "2022-08-31"
+    },
+	{
+      "name": "Department of Economics -- University of Padua",
+      "position": "PostDoc Researcher",
+      "url": "",
+      "startDate": "2015-10-01",
+      "endDate": "2016-09-30"
+    },
+	{
+      "name": "Research Institute for the Evaluation of Public Policies (IRVAPP), Trento, Italy",
+      "position": "Junior Researcher",
+      "url": "",
+      "startDate": "2010-06-01",
+      "endDate": "2011-12-31"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Department of Statistical Sciences -- University of Padua",
+      "location": "Padua, Italy",
+      "studyType": "PhD in Statistics",
+      "startDate": "2012-01-01",
+      "endDate": "2015-10-19"
+    },
+	{
+      "institution": "Department of Statistical Sciences -- University of Padua",
+      "location": "Padua, Italy",
+      "studyType": "Master Degree in Statistics, Economics, Finance and Management",
+      "startDate": "2007-10-01",
+      "endDate": "2010-03-10"
+    },
+	{
+      "institution": "Department of Economics -- Università degli Studi del Molise",
+      "location": "Campobasso, Italy",
+      "studyType": "Bachelor Degree in Economics",
+      "startDate": "2004-10-01",
+      "endDate": "2007-10-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Qualification as associate professor of Economics",
+      "date": "2023-06",
+      "issuer": "Italian scientific qualification as associate professor of Economics (13/A1)",
+      "icon": "fa-solid fa-tag"
+    },
+	{
+      "name": "Qualification as associate professor of Economic Policy",
+      "date": "2023-06",
+      "issuer": "Italian scientific qualification as associate professor of Economic Policy (13/A2)",
+      "icon": "fa-solid fa-tag"
+    },
+	{
+      "name": "Qualification as associate professor of Public Economics",
+      "date": "2023-06",
+      "issuer": "Italian scientific qualification as associate professor of Public Economics (13/A3)",
+      "icon": "fa-solid fa-tag"
+    },
+	{
+      "name": "Qualification as associate professor of Econometrics",
+      "date": "2023-06",
+      "issuer": "Italian scientific qualification as associate professor of Econometrics (13/A5)",
+      "icon": "fa-solid fa-tag"
+    }
+  ]
+}
